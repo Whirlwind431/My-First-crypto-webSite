@@ -1,0 +1,91 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imgNav {
+    padding-left: 20px;
+    padding-top: 5px;
+    display: block;
+    height: 80px;
+}
+
+
+
+.navBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0081C9;
+    box-shadow: 1px 5px 10px #909090;
+}
+
+.manHeader {
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 5px;
+    color: #404040;
+    font-family: HeaderFont;
+    cursor: pointer;
+}
+
+.mainHeader {
+    margin-left: 30px;
+    margin-right: 30px;
+    letter-spacing: 5px;
+    color: #404040;
+    font-family: HeaderFont;
+}
+
+.manHeader:hover {
+    color: #1095ff;
+}
+
+.searchInput {
+    margin-left: auto;
+    margin-right: 0;
+    border: 2px solid #0081C9;
+    border-radius: 10px 0 0 10px;
+    width: 220px;
+    height: 25px;
+    outline: none;
+    color: #0081C9;
+}
+
+.searchButton {
+    margin-right: 30px;
+    height: 31px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    background-color: #0081C9;
+    color: #fff;
+    border: none;
+}
+
+.navButton {
+    color: #0081C9;
+    font-weight: 600;
+    margin-right: 35px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.navButton:hover {
+    color: #1095ff;
+}
+
+.loginButton {
+    margin-left: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.loginButton:hover {
+    color: #1095ff;
+}
+
+@font-face {
+    font-family: HeaderFont;
+    src: url(Assets/Fonts/HemicubeType_PERSONAL_USE_ONLY.ttf);
+}
