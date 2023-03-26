@@ -41,8 +41,8 @@ function websiteInit() {
 }
 
 function showChart() {
-    homePage.style.display = 'flex'
-    homePageContent.style.display = 'none'
+    homePage.style.display = 'flex';
+    homePageContent.style.display = 'none';
     createMainChart()
 }
 
