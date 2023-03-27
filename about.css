@@ -1,0 +1,13 @@
+.aboutContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: AboutHeader;
+    font-size: xx-large;
+}
+
+@font-face {
+    font-family: AboutHeader;
+    src: url(Assets/Fonts/Restaglick.ttf);
+}
